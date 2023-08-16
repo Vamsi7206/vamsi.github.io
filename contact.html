@@ -3,6 +3,17 @@
 <head>
     <title>contct me</title>
     <link rel="icon" href="vv.png">
+    <style>
+        fieldset{
+            background-color: aqua;
+        }
+        table{
+            background-color: greenyellow;
+        }
+        #a{
+            color: rgb(255, 0, 170);
+        }
+    </style>
 </head>
 <body bgcolor="#D4E2D4">
     <center>
@@ -10,7 +21,7 @@
     </center>
     <form action="msg.html" target="_blank">
     <fieldset>
-        <h1>Contact Details</h1>
+        <h1 id="a">Contact Details</h1>
         <table>
             <tr>
                 <td><label for="f_name">First Name</label><td><input type="text" size="15" id="f_name" name="f_name" placeholder="Ex:Vamsi" required></td></td>
@@ -45,11 +56,13 @@
     </table><br><br>
     <label>Reason:</label><br>
     <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
-    <input type="submit" target="_blank"><br><br>
+    <input type="submit" target="_blank" style="border: 2px solid sandybrown;background-color: salmon;font-size: large;"><br><br>
     </fieldset>   
     </form><br><br>
     <form action="internship.html" target="_blank">
-        <button>Back</button>
+        <div>
+        <button style="border: 2px solid gold;background-color: crimson;font-size: large;">Back</button>
+        </div>
     </form>
 </body>
 </html>
